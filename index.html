@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="./css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <section class="ageCalculator">
+        <header class="title">
+            <h1>Age Calculator</h1>
+
+        </header>
+
+        <main class="dmy">
+            <div class="date-titles"><span>Date</span><span>Month</span><span>Year</span></div>
+            <div class="date-content"><input type="number" maxlength="2" id="date" name="date" min="1" max="31" />
+                <input type="number" maxlength="2" id="month" name="month" min="1" max="12" />
+                <input type="number" maxlength="4" min="1900" max="2023" id="year" name="year" />
+            </div>
+            <div class="sub"><input type="submit" class="btn" value="submit" id="calculate" /></div>
+            <div class="sub" id="res"></div>
+        </main>
+
+    </section>
+    <script src="./js/agecalculator.js"></script>
+</body>
+
+</html>

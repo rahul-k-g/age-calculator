@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width: 100vw;
+    background-color: blue;
+}
+.ageCalculator{
+    display:flex;
+    background-color: #ffff;
+    width:38vw;
+    height:60vh;
+    flex-direction:column;
+    padding:5px;
+   
+}
+.title {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding:1em;
+}
+h1 {
+    color: #1a1a7e;
+}
+.dmy{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+  
+}
+.date-titles, .dmy{
+    display:flex;
+    align-content:flex-start;
+  row-gap: 5px;
+}
+span, input{
+    font-size: 18px;
+    font-weight: 500;
+    padding:2px;
+    margin:4px;
+    text-align:center;
+}
+span {
+    width:33.33%;
+    color:#1a1a7e;
+}
+
+input {
+    width:30%;
+}
+.sub{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:4px;
+}
+.btn{
+    background:#1a1a7e;
+    color:#ffff;
+    font-size:17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#res {
+    color:#1a1a7e;
+}
